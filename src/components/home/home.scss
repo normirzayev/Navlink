@@ -1,0 +1,132 @@
+.home_contayner{
+    max-width: 1300px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    padding: 0 30px;
+    display: flex;
+    .menuTab{
+        width: 15%;
+        padding: 30px 0;
+        border-right: 1px solid silver;
+        .logo{
+            display: flex;
+            margin-bottom: 35px;
+            &:hover{
+                cursor: pointer;
+            }
+            .logoRasm{
+                position: relative;
+                img{
+                    position: absolute;
+                    width: 43px;
+                    &:nth-child(2){
+                        width: 15px;
+                        left: 25px;
+                        background-color: yellow;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            p{
+                margin-left:55px;
+                font-size: 14px;
+                margin-top: 8px;
+                font-weight: 800;
+                color: #0F4264;
+            }
+        }
+        .navlink{
+            list-style: none;
+            margin-left: 5px;
+            ul{ 
+                li{
+                    display:flex;
+                    align-items: center;
+                    margin: 10px 0;
+                    padding: 5px;
+                    border-radius: 5px;
+                    width: 90%;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #F0F7FF;
+                    }
+                    img{
+                        margin-right: 13px;
+                    }
+                    &:first-child{
+                        background-color:#F0F7FF;
+                    }
+                }
+            }
+        }
+        .upgrade{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &>p{
+                text-align: center;   
+                font-size: 10px;
+                line-height: 11px;
+                width: 55%;
+                margin: 10px auto;
+            }
+            .tugma{
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+                border-radius: 13px;
+                background-color: #FFC145;
+                cursor: pointer;
+                &>p{
+                    margin-right: 2px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    .section{
+        width: 85%;
+        padding: 15px 30px;
+        .profile{   
+            display: flex;
+            justify-content: space-between;
+            .weekly{
+                h1{
+                    font-size: 43px;
+                    color: #404040;
+                }
+                p{
+                    font-size: 16px;
+                    color: #AEAEAE;
+                }
+            }
+            .profileRasm{
+                display: flex;
+                align-items: center;
+                .tarmoqlar{
+                    img{
+                        margin: 0 5px;
+                        &:nth-child(1){
+                            margin-bottom: 5px;
+                        }
+                        &:nth-child(3){
+                            background-color: #FFC145;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+                .name{
+                    p{
+                        font-weight: 600;
+                        color: #404040  ;
+                    }
+                    span{
+                        color: #AEAEAE;
+                    }
+                }
+            }
+        }
+    }
+}

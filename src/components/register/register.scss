@@ -1,0 +1,43 @@
+form{
+    width: 50%;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0; 
+    margin: 30px auto;
+    border-radius: 5px;
+    position: relative;
+    input{
+        font-size: 20px;
+        margin: 10px auto;
+        width: 90%;
+        border-radius: 5px;
+        height:  40px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        transition: all 0.3s;
+        &::placeholder{
+            text-transform: capitalize;
+        }
+        &:focus{
+            width: 90.5%;
+        }   
+        &:nth-child(4){
+            margin-bottom: 55px;
+        }
+    }
+    button{
+        position: absolute;
+        background-color: green;
+        padding: 0px 30px;
+        height: 35px;
+        font-size: 20px;
+        bottom: 0;
+        right: 5%;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin-bottom: 20px;
+    }
+}

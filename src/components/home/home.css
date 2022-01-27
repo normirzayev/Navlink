@@ -1,0 +1,178 @@
+.home_contayner {
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: white;
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home_contayner .menuTab {
+  width: 15%;
+  padding: 30px 0;
+  border-right: 1px solid silver;
+}
+
+.home_contayner .menuTab .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.home_contayner .menuTab .logo:hover {
+  cursor: pointer;
+}
+
+.home_contayner .menuTab .logo .logoRasm {
+  position: relative;
+}
+
+.home_contayner .menuTab .logo .logoRasm img {
+  position: absolute;
+  width: 43px;
+}
+
+.home_contayner .menuTab .logo .logoRasm img:nth-child(2) {
+  width: 15px;
+  left: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.home_contayner .menuTab .logo p {
+  margin-left: 55px;
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 800;
+  color: #0F4264;
+}
+
+.home_contayner .menuTab .navlink {
+  list-style: none;
+  margin-left: 5px;
+}
+
+.home_contayner .menuTab .navlink ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.home_contayner .menuTab .navlink ul li:hover {
+  background-color: #F0F7FF;
+}
+
+.home_contayner .menuTab .navlink ul li img {
+  margin-right: 13px;
+}
+
+.home_contayner .menuTab .navlink ul li:first-child {
+  background-color: #F0F7FF;
+}
+
+.home_contayner .menuTab .upgrade {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home_contayner .menuTab .upgrade > p {
+  text-align: center;
+  font-size: 10px;
+  line-height: 11px;
+  width: 55%;
+  margin: 10px auto;
+}
+
+.home_contayner .menuTab .upgrade .tugma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  border-radius: 13px;
+  background-color: #FFC145;
+  cursor: pointer;
+}
+
+.home_contayner .menuTab .upgrade .tugma > p {
+  margin-right: 2px;
+  font-size: 11px;
+}
+
+.home_contayner .section {
+  width: 85%;
+  padding: 15px 30px;
+}
+
+.home_contayner .section .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home_contayner .section .profile .weekly h1 {
+  font-size: 43px;
+  color: #404040;
+}
+
+.home_contayner .section .profile .weekly p {
+  font-size: 16px;
+  color: #AEAEAE;
+}
+
+.home_contayner .section .profile .profileRasm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home_contayner .section .profile .profileRasm .tarmoqlar img {
+  margin: 0 5px;
+}
+
+.home_contayner .section .profile .profileRasm .tarmoqlar img:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+.home_contayner .section .profile .profileRasm .tarmoqlar img:nth-child(3) {
+  background-color: #FFC145;
+  border-radius: 20px;
+}
+
+.home_contayner .section .profile .profileRasm .name p {
+  font-weight: 600;
+  color: #404040;
+}
+
+.home_contayner .section .profile .profileRasm .name span {
+  color: #AEAEAE;
+}
+/*# sourceMappingURL=home.css.map */

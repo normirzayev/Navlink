@@ -1,0 +1,9 @@
+#text{
+    font-size: 100px;
+    display: flex;
+    color: crimson;
+}
+#text>h1{
+    font-size: 100px;
+    color: red;
+}
